@@ -1,0 +1,152 @@
+/* Common style  */
+* {
+  font-family: "Merriweather";
+}
+
+/* Header section style  */
+
+.header {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 20px;
+  /* filter: brightness(70%); */
+}
+.head-text {
+  text-align: center;
+  padding-top: 150px;
+}
+.head-text h3 {
+  color: white;
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  margin-top: 0;
+}
+
+.head-text p {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* off section  */
+.off-container {
+  text-align: center;
+}
+
+.off-container h2 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+.off-container h4 {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.off-container h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.hp-pic {
+  width: 800px;
+  height: 500px;
+  margin: 48px auto;
+}
+
+/* Midnight party */
+.midnight-party {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  margin: 120px auto;
+  border-radius: 20px;
+}
+.party-text {
+  padding-top: 80px;
+  margin-left: 130px;
+}
+.party-text h1 {
+  color: #fff;
+
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 0;
+}
+.party-text p {
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 0;
+}
+#btn {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background: none;
+}
+.mid {
+  display: flex;
+}
+.party-img {
+  margin-top: 50px;
+  margin-left: 180px;
+  width: 319.83px;
+  height: 464.662px;
+}
+
+/* date time section  */
+.dt {
+  text-align: center;
+  width: 1320px;
+  height: 482px;
+  margin: 120px auto;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.reds {
+  color: #f00;
+}
+.dt h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+
+  margin: 0;
+}
+
+.button {
+  color: #fff;
+  background-color: #f00;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+}
